@@ -104,7 +104,6 @@ collision_layer = 6
 collision_mask = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="detection_area"]
-visible = false
 position = Vector2(1, -6)
 scale = Vector2(1.09406, 1.03755)
 shape = SubResource("CircleShape2D_8661b")
@@ -112,14 +111,12 @@ shape = SubResource("CircleShape2D_8661b")
 [node name="Enemy_hitbox" type="Area2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Enemy_hitbox"]
-visible = false
 position = Vector2(0, -7)
 shape = SubResource("CircleShape2D_ct8a4")
 
 [node name="Attack_Area_Enemy" type="Area2D" parent="." groups=["Attack_Enemy2"]]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Attack_Area_Enemy"]
-visible = false
 position = Vector2(-1, -7)
 shape = SubResource("CircleShape2D_luvic")
 
